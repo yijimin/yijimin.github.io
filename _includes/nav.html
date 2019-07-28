@@ -27,11 +27,11 @@
                         <a href="{{ site.baseurl }}/about/">关于我</a>
                     </li>
                     <li>
-                        <a href="{{ site.baseurl }}/archive/">归档文章</a>
+                        <a href="{{ site.baseurl }}/archive/">文章</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="{{ site.baseurl }}/books/thinking-in-spring-boot/">《Spring Boot 编程思想》</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -74,11 +74,11 @@
     /**
      * Since Fastclick is used to delegate 'touchstart' globally
      * to hack 300ms delay in iOS by performing a fake 'click',
-     * Using 'e.stopPropagation' to stop 'touchstart' event from 
+     * Using 'e.stopPropagation' to stop 'touchstart' event from
      * $toggle/$collapse will break global delegation.
-     * 
+     *
      * Instead, we use a 'e.target' filter to prevent handler
-     * added to document close HuxNav.  
+     * added to document close HuxNav.
      *
      * Also, we use 'click' instead of 'touchstart' as compromise
      */
