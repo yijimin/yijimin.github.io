@@ -9,16 +9,16 @@ url: "https://yijimin.github.io/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 post:
-  author: Jaimin
+  author: yijimin
 
 # Publish posts or collection documents with a future date.
 future: true
 
 # SNS settings
 RSS: true
-weibo_username:     Jaimin
-github_username:    Jaimin
-twitter_username:   Jaimin
+weibo_username:     Jaimin_
+github_username:    yijimin
+# twitter_username:   Jaimin
 #linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -60,7 +60,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: Jaimin
+disqus_username: yijimin
 
 # Netease settings
 netease_comment: false
